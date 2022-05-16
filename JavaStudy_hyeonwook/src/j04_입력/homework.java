@@ -10,9 +10,11 @@ Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("년도 입력:");
 		int year = scanner.nextInt();
-		boolean result = year%4==0
-						&&year%100!=0
-						||year%400==0;
+		String result= year % 4 == 0 // String result = X, String을 한번 더 쓰는거 즉, 변수 선언을 2번하는거는 안댐 
+						&& year % 100 != 0 
+						|| year % 400 == 0 ?
+						"윤년":"윤년이 아님";
+			
 		
 		
 		System.out.println(result);
