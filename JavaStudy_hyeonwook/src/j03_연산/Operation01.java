@@ -10,6 +10,11 @@ public class Operation01 {
 		num= num+1; //이렇게 넣으면 11로 출력
 		// num++; 이렇게 해도 11로 출력-> 선증가
 		//++num; 이것도 되긴함-> 후증가
+		System.out.println(num++); //후증가는 지금 현재는 1증가 x 그 다음줄부터 1증가
+		System.out.println(num);
+		
+		System.out.println(--num);
+		System.out.println(num--);
 		System.out.println(num);
 		
 		// --num -> 선감소

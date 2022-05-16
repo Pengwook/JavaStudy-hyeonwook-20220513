@@ -10,14 +10,14 @@ public class Operation07 {
 		
 		int year = 1999;
 		
-		String result = null;
+		String result = null; // null은 클래스에서 자세한 설명. 일단은 빈값이라는 뜻
 		result = year % 4 == 0 
-				&& year % 100 ! == 0 
+				&& year % 100 != 0 
 				|| year % 400 == 0 ?
 				"윤년":"윤년이 아님";
 		
 		
-		System.out.println("결과:" +result);
+		System.out.println("결과: " +result);
 
 	}
 
