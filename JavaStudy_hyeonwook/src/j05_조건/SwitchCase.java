@@ -1,9 +1,10 @@
 package j05_조건;
 
 // 자료형이 같아야함
+// 괄호 안에 찾고자하는 값이 들어가야댐
 // 스위치는 중괄호가 없기 때문에 구분이 안되서 쭉 실행된것
 // 스위치 안에 수식도 들어갈 수 있음 ex) switch(num / 10)
-//default는 else라 생각하면 좋음
+//default는 else라 생각하면 좋음 -> 찾고자하는 값이 없을때 default로 오는것
 public class SwitchCase {
 
 	public static void main(String[] args) {
