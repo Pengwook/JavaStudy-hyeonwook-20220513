@@ -2,9 +2,10 @@ package j07_메소드;
 // class 안에 정의된 함수를 메소드라고 함. -> 자바에서 모든 함수는 메소드
 // 프로그램은 메인함수가 먼저 실행됨.
 // 반환이 없으면 void가 들어감. 즉 return 할게없다라는것.
+// 매개변수와 반환은 전혀 상관없음.
 public class Method02 {
 	
-	// 매개변수가 없으면서 반환도 없는 메소드
+	// 매개변수가 없으면서 반환도 없는 메소드  // 괄호 안에 아무것도 없고 void
 	public static void test1() {
 		System.out.println("test1 메소드 실행");
 	}
