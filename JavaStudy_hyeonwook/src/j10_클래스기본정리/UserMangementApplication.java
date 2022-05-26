@@ -9,8 +9,11 @@ public class UserMangementApplication {
 
 	public static void main(String[] args) {
 		
-		UserManagementController userManagementController = new UserManagementController(new UserService()); // UserManagementController를 쓰고싶은데 같은공간이 아니라서 불러와야함(import)
-		userManagementController.createUser();			// 위는 객체 생성. 얘는 객체안의 메소드 실행
+		UserManagementController userManagementController 
+		= new UserManagementController(new UserService()); 	// UserManagementController를 쓰고싶은데 같은공간이 아니라서 불러와야함(import)
+		userManagementController.createUser();				// 위는 객체 생성. 얘는 객체안의 메소드 실행
+		userManagementController.createUser();
+		userManagementController.createUser();
 		
 		
 		

@@ -9,19 +9,19 @@ public class UserService {		// 이 클래스를 생성하는 시점에 스캐너
 	private Scanner scanner;	// 이거 대신에 private Scanner scanner = new Scanner(System.in); 을 써도됨.
 	
 	public UserService() {
-		scanner = new Scanner(System.in);
+		scanner = new Scanner(System.in);	// 지역이 같으면 같은변수명을 쓸수있음.
 	}
 	
-	public User insertUser() {  // 메소드명: insertUser // 앞에 User라고 쓰는 이유는 리턴을 받기 위하여 반환자료형을 같게함
+	public User insertUser() {  // 메소드명: insertUser // 앞에 User라고 쓰는 이유는 리턴을 받기 위하여 반환자료형을 같게함	// User -> 리턴자료형
 		showInsertView();
-		String usercode = null;
+		String usercode = null;	// 선언	// 메소드 안에서 쓸려고 만든 변수
 		String email = null;
 		String name = null;
 		String username = null;
 		String password = null;
 		
 		System.out.print("사용자번호입력:");
-		usercode = scanner.nextLine();
+		usercode = scanner.nextLine();		//입력	
 		System.out.print("이메일:");
 		email = scanner.nextLine();
 		System.out.print("이름:");
