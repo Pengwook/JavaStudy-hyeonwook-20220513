@@ -15,7 +15,7 @@ public class UserManagementController {
 	
 	
 	public void createUser() {		// 실체가 있어야 실행이 되는데 // 실체가 있을려면 생성이 되어야함.
-		int indexResult = findEmptyInUsers();
+		int indexResult = findEmptyInUsers();	
 		if(indexResult != -1) {
 			users[indexResult] = userService.insertUser();
 			
@@ -32,8 +32,8 @@ public class UserManagementController {
 //	
 	private int findEmptyInUsers() {
 		for(int i = 0; i < users.length; i++) {
-			if(users[i] == null) {
-				return i;
+			if(users[i] == null) {	
+				return i;		// 공간이 존재했으면 0,1중 하나가 댐.
 			}
 		}
 		

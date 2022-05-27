@@ -26,7 +26,8 @@ public class Array02 {
 			}
 		}
 		
-		int[] numbers = new int[size];		// 8의 배수의 갯수만큼 배열만듦. 배열공간을 만드는것.
+		int[] numbers = new int[size];		// 8의 배수의 갯수만큼 배열만듦. 배열공간을 만드는것.	// 배열 변수 선언
+		numbers = new int[size]; //	size변수의 크기에 해당하는 배열 생성.
 		
 		for(int i = 0, j = 0; i < 100; i++) {		// 0부터 99까지 검사를 하면서 8의 배수면은 해당 배열에 집어넣어라
 			if(i != 0 && i % 8 == 0) {
