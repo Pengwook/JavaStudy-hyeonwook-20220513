@@ -3,7 +3,7 @@ package j02_변수와_상수;
 public class MaxMin {
 
 	public static void main(String[] args) {
-		final int MAX_NUMBER = 100;
+		final int MAX_NUMBER = 100;	// MAX_NUMBER -> 상수
 		//선언과 초기화를 한번에 한것
 		//원래는 final int MAX_NUMBER;
 		//       MAX_NUMBER = 100;

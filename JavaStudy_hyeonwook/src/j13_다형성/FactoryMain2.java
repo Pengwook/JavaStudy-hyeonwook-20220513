@@ -37,6 +37,7 @@ public class FactoryMain2 {
 			}else {
 				System.out.println("다운캐스팅 할 수 없습니다.");
 			}
+			
 		}
 	}
 
