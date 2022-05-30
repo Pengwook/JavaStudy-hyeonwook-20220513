@@ -21,8 +21,12 @@ public abstract class Factory {
 	// 추상 메소드	// 꼭 override 해야함
 	public 	abstract void start();
 	
-	//일반 메소드	// 꼭 override 할 필요는 없음.
+	// 일반 메소드	// 꼭 override 할 필요는 없음.
 	public void stop() {
-//		System.out.println("공장을 멈춥니다.");
+		System.out.println("공장을 멈춥니다.");
 	}
+	
+//	private void test() {	// private 메소드 또는 변수들은 상속 받을수 없음.
+//		
+//	}
 }
