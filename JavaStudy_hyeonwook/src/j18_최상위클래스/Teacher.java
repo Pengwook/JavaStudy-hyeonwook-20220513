@@ -37,7 +37,7 @@ public class Teacher extends Object {
 	
 	@Override	// 위에 오버라이드 한것과 같음.
 	public int hashCode() {	// hashCode -> 주소값. 기본적으로 int 자료형임.
-		return Objects.hash(age, name, subject);	
+		return Objects.hash(age, name, subject);	// age, name, subject 라는 변수들로 hashCode를 만들어줄겡
 	}
 
 	@Override
