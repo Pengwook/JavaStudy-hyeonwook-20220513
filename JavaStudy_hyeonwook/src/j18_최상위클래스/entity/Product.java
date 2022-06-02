@@ -3,27 +3,6 @@ package j18_최상위클래스.entity;
 import java.time.LocalDate;
 import java.util.Objects;
 
-/*
- * 상품 정보 클래스(Entity Class) -> 기본셋팅
- * 
- * 변수
- * productCode		int
- * productName		String
- * category			int
- * productingDate	LocalDate
- * 
- * 기본 생성자
- * 
- * 전체 생성자
- * 
- * getter, setter
- * 
- * hashCode()
- * 
- * equals()
- * 
- * toString()
- */
 public class Product {
 	private int productCode;
 	private String productName;
