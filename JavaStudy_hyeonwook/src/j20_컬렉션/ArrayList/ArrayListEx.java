@@ -1,5 +1,5 @@
 package j20_컬렉션.ArrayList;
-
+// list 인터페이스
 import java.util.ArrayList;
 
 public class ArrayListEx {
@@ -32,7 +32,7 @@ public class ArrayListEx {
 		System.out.println(strArrayList.size());
 		
 		strArrayList.remove("b1");
-		strArrayList.remove(0);
+		strArrayList.remove(0);	// 0번 인덱스를 지워라
 		
 		for(String str : strArrayList) {
 			System.out.println(str);
@@ -41,6 +41,8 @@ public class ArrayListEx {
 		for(int i = 0; i < strArrayList.size(); i++) {
 			System.out.println(strArrayList.get(i));
 		}
+		
+		strArrayList.forEach(r -> {System.out.println(r);});
 	}
 
 }
