@@ -28,7 +28,7 @@ public class HashSetEx2 {
 		
 		while(iterator.hasNext()) {
 			Student student = iterator.next();
-			if(student.getStudentCode() == 20220002) {
+			if(student.getStudentCode() == 20220002) {	// 정수일때 == 문자열일때 equals
 				System.out.println(student);   // 20220002의 코드를 가진 학생을 조회
 			}
 		}
