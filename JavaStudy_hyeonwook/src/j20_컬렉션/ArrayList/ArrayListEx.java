@@ -42,7 +42,7 @@ public class ArrayListEx {
 			System.out.println(strArrayList.get(i));
 		}
 		
-		strArrayList.forEach(r -> {System.out.println(r);});
+		strArrayList.forEach(r -> {System.out.println(r);});	// return 이 void일때 중괄호{} 생략가능
 	}
 
 }
